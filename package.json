@@ -4,7 +4,7 @@
   "description": "vue3 幸运大转盘、九宫格，支持 h5、uniapp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vangleer/lottery/issues"
   },
-  "homepage": "https://github.com/vangleer/lottery#readme"
+  "homepage": "https://github.com/vangleer/lottery#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
