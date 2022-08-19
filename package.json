@@ -4,6 +4,7 @@
   "description": "vue3 幸运大转盘、九宫格，支持 h5、uniapp",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm dev --filter ./packages/h5 ",
     "prettier": "prettier --write ."
   },
   "repository": {
